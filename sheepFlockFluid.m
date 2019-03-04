@@ -4,7 +4,7 @@ function [out] = sheepFlockFluid(v,fieldSmooth,globalRegistration)
 %
 %   Input:
 %   v - movie structure, returned by VideoReader
-%   fieldSmooth (optional) - positive number, amount of blurring; default: 10
+%   fieldSmooth (optional) - positive number, see imregdemons; default: 3
 %   globalRegistration (optional) - true/false; if true, performs global
 %   registration before calculating local registration
 %
